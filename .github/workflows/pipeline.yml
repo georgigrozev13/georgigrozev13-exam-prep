@@ -58,7 +58,7 @@ jobs:
         run: npm install   
       - name: Install Playwright
         run: npx playwright install --with-deps
-      - name: Running unit tests
+      - name: Running UI tests
         run: npm run test:ui
 
       
